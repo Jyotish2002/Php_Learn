@@ -1,18 +1,8 @@
-## 📌 Sessions vs Cookies in PHP
-
-### ✅ What’s the difference?
-
-| Feature | **Session** | **Cookie** |
-|---------|--------------|-------------|
-| **Where stored?** | On the **server** | On the **user’s browser** |
-| **Data size limit** | Can store more data | Small size limit (~4KB) |
-| **Lifetime** | Ends when user closes browser or session expires on server | Can have an expiry date and stay for days, weeks, or more |
-| **Access** | Only server can access | Both server and user/browser can access |
-| **Use case** | Login state, user info during a visit | Remember user preferences for next visits |
-| **Security** | More secure | Less secure |
-
-**👉 In short:**  
-- **Sessions:** Good for sensitive data like login info.  
-- **Cookies:** Good for saving simple settings like theme or username.
-
----
+| Feature             | **Session**                                                | **Cookie**                                                              |
+| ------------------- | ---------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Where stored?**   | Stored on the **server**                                   | Stored on the **user’s browser**                                        |
+| **Data size limit** | Can store more data                                        | Small size (usually max \~4KB)                                          |
+| **Lifetime**        | Ends when user closes browser or session expires on server | Can have an expiry date — stays until it expires or user clears cookies |
+| **Who can access?** | Only server can access                                     | Both browser (user) and server can access                               |
+| **Use case**        | Login status, user info while visiting a website           | Remember preferences, save login info for next visits                   |
+| **Security**        | More secure — data stays on server                         | Less secure — stored in browser, can be modified                        |
