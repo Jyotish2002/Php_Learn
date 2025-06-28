@@ -1,0 +1,18 @@
+## 📌 Sessions vs Cookies in PHP
+
+### ✅ What’s the difference?
+
+| Feature | **Session** | **Cookie** |
+|---------|--------------|-------------|
+| **Where stored?** | On the **server** | On the **user’s browser** |
+| **Data size limit** | Can store more data | Small size limit (~4KB) |
+| **Lifetime** | Ends when user closes browser or session expires on server | Can have an expiry date and stay for days, weeks, or more |
+| **Access** | Only server can access | Both server and user/browser can access |
+| **Use case** | Login state, user info during a visit | Remember user preferences for next visits |
+| **Security** | More secure | Less secure |
+
+**👉 In short:**  
+- **Sessions:** Good for sensitive data like login info.  
+- **Cookies:** Good for saving simple settings like theme or username.
+
+---
