@@ -24,4 +24,4 @@ It covers all the **fundamental concepts** of PHP programming to build a strong 
 
 2. **Download or Clone this Repository**
    ```bash
-   git clone https://github.com/Jyotish2002/PHP_Learning.git
+   git clone https://github.com/Jyotish2002/Php_Learn.git
