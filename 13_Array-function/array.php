@@ -26,3 +26,4 @@
     print_r($data);
 
 ?>
+ <!-- when we want to print array then we use print_r() function. when we want to print array in string then we us -->
